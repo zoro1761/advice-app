@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  width: 480px;
+  padding: 30px 30px 0px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+#advice-id {
+  font-size: 10px;
+  margin-bottom: 10px;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 2px;
+}
+
+#advice-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color:  hsl(193, 38%, 86%);
+}
+
+#play {
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+
+/* Additional styling for the play SVG path */
+#play path {
+  fill: #4F5D74; /* Set the fill color as needed */
+}
+
+.circle-container {
+  width: 50px; /* Adjust the size of the circle container as needed */
+  height: 50px; /* Adjust the size of the circle container as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%); /* Set the background color of the circle container */
+  margin-bottom: -20px;
+}
+
+#myButton {
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+#myButton:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%); /* Adjust the shadow color and size as needed */
+  filter: brightness(1.8); /* Adjust the brightness value for the glowing effect */
+}
+
+#play {
+  width: 440px; /* Set the width as needed */
+  height: 15px !important; /* Set the height as needed */
+}
+
+
